@@ -41,9 +41,11 @@ function App() {
             const guakalabtn = document.getElementById('guakala');
             const textito = document.getElementById('textito');
 
+            textito.textContent = "Sonreí más seguido, pofavo, te ves más bonito cuando lo haces. uwu";
+            textito.style.visibility = 'visible';
+
             simonbtn.style.display = 'none';
             guakalabtn.style.display = 'none';
-            textito.style.display = 'none';
 
             img.src = 'https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif';
             text.textContent = mytext; 
@@ -58,7 +60,7 @@ function App() {
             button.textContent = 'Simon';
 
             const result = getTotalHover();
-            if(result > 3){
+            if(result > 1){
               img.src = 'https://media.tenor.com/fvphRD_LUEMAAAAj/bear-angry.gif';
               text.textContent = '¡¿De verdad le vas a dar que no?! oO';
               textito.style.visibility = 'visible';
