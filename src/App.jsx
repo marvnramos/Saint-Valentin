@@ -10,7 +10,7 @@ function App() {
     
       <div className="absolute inset-0 -z-10 h-full w-full bg-white" style={{ backgroundImage: 'radial-gradient(circle at 50% 50%, #e5e7eb 1px, transparent 1px)', backgroundSize: '16px 16px', width: '100vw', height: '100vw', position: 'relative'  }}>
         <div className='container'>
-          <img id='osito' src="./src/assets/ositoconrositawnbg.gif" alt="" />
+          <img id='osito' src="/assets/ositoconrositawnbg.gif" alt="" />
           <h1 id='text' className='protest-riot-regular'>Keres cer mi chukinuni?</h1>
           <p id='textito' className="protest-riot-regular">Ni modo, te gua vlokear la targeta otra ves ùnú</p>
           <div className="flex items-center">
